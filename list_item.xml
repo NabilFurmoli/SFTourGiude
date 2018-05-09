@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@color/list_backg_color">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:paddingBottom="8dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingBottom="6dp"
+            android:paddingRight="8dp"
+            tools:text="" />
+        <TextView
+            android:id="@+id/address_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/textColor"
+            tools:text="" />
+
+        <TextView
+            android:id="@+id/phone_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="8dp"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/textColor"
+            tools:text="" />
+    </LinearLayout>
+    <View
+        style="@style/view_style"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:padding="0dp"/>
+</LinearLayout>
